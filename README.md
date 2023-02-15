@@ -20,7 +20,7 @@ the structure chosen is a DCgan. Generator and discriminator are build following
 in this phase only the generator is trained, using as loss the similarity score between the generated immage and the associated caption. The score is provided using the pretrained CLIP architecture.
 
 ## Code and relative folder
-The file [gan.py](https://github.com/PaolaFoc/Vision-Perception-project/blob/main/gan.py) contains all the code developed for the project. 
+The file [gan.py](https://github.com/PaolaFoc/Vision-Perception-project/blob/main/gan.py) contains all the code developed for the project. In the folder there is also the notebook version.
 The original code was developed in a colab notebook, that can be found in this [drive folder](https://drive.google.com/drive/folders/1w2ErKRgulfJaPdxAECsFwf1IOHyd0qNn?usp=share_link).\
 The folder contains:
 1. the three datasets *FLickr*, *CelebA* and *Face2tex*t;
