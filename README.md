@@ -13,7 +13,7 @@ It's a textual dataset. It contains faces' descriptions that are more detailed t
 ## Approach
 The project can be divided into two phases:
 1. building a gan that generate faces from random noise: \
-the structure chosen is a DCgan
+the structure chosen is a DCgan. Generator and discriminator are build following this [article](https://arxiv.org/pdf/1511.06434.pdf) and are trained in an adversarial modality. 
 2. inserting the textual description as input for the generator:\
 in this phase only the generator is trained, using as loss the similarity score between the generated immage and the associated caption. The score is provided using the pretrained CLIP architecture.
 
@@ -26,4 +26,4 @@ The folder contains:
 3. *AdversarialTrainEpochs*, that contains the networks' weights and related data for each epoch of adversarial training;
 4. *ClipTrainImages*, that contains all the images generated from a fixed caption at each epoch of training in the second phase;
 5. *ClipTrainEpochs*, that contains the networks' weights and related data for each epoch of training in the second phase;
-6. *gan.ipynb*, the original, and runnable, notebook in which the code was developed.
+6. *gan.ipynb*, the original, and runnable, notebook in which the code was developed. To run the code you need to add a shortcut to the home directory of you drive.
