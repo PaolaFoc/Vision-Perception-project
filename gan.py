@@ -48,7 +48,7 @@ device = torch.device("cuda:0" if (torch.cuda.is_available()) else "cpu")
 *   flickr dataset
 *   face2text dataset
 
-Images are then divided among smaller folders sucha that each folder contains the same number of samples from each dataset
+Images are then divided among smaller folders such that each folder contains the same number of samples from each dataset
 
 
 """
