@@ -1,7 +1,7 @@
 # Vision & Perception project
 Student: Paola Fochetti, 1759100 \
 The main goal of the project is to give a face to a character's book by building a gan able to generate faces starting from a textual description. \
-[Here](https://drive.google.com/drive/folders/1w2ErKRgulfJaPdxAECsFwf1IOHyd0qNn?usp=share_link) you can find all data used and produced
+[Here](https://drive.google.com/drive/folders/1w2ErKRgulfJaPdxAECsFwf1IOHyd0qNn?usp=share_link) you can find the drive folder where tthe code was developed.
 
 ## Datasets
 Three datasets are used, two are image datasets and are used for training in the first phase, while the thirsd one is a textual dataset used in the second phase.
