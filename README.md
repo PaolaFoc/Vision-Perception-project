@@ -1,4 +1,5 @@
-# Vision-Perception-project
+# Vision & Perception project
+Student: Paola Fochetti, 1759100
 The main goal of the project is to give a face to a character's book by building a gan able to generate faces starting from a textual description. 
 [Here](https://drive.google.com/drive/folders/1w2ErKRgulfJaPdxAECsFwf1IOHyd0qNn?usp=share_link) you can find all data used and produced
 
